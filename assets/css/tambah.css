@@ -1,0 +1,42 @@
+body{
+	background-image: url("../img/bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-decoration: none;
+}
+hr{
+	width: 400px;
+	border-bottom: 1px solid #00a9c6;
+}
+.box{
+	margin-top: 50px;
+	width: 320px;
+	color: #333;
+	background-color: white;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-60%);
+	padding: 40px 30px;
+	border-radius: 10px;
+	border-left: 4px solid #00a9c6;
+	border-right: 4px solid #00a9c6;
+	width: 600px;
+}
+form>input,textarea{
+	background-color: transparent;
+	border: 1px solid #333;
+	width: 100%;
+}
+.back{
+	color: black;
+	margin-left: 60%;
+	text-align: center;
+	padding: 8px;
+	background-color: tomato;
+	border-radius: 5px;
+}
+a:hover{
+	text-decoration: none;
+	color: #eaeaea;
+}
